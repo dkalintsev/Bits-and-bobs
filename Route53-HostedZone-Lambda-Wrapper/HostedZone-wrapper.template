@@ -112,6 +112,7 @@
 "import boto3",
 "import random",
 "import string",
+"import sys",
 "",
 "def handler(event, context):",
 "	if event['RequestType'] == 'Delete':",

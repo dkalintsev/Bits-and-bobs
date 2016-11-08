@@ -17,6 +17,7 @@ import cfnresponse
 import boto3
 import random
 import string
+import sys
 #
 def handler(event, context):
     # This function handles two RequestTypes: CREATE and DELETE
